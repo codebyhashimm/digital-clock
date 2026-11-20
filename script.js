@@ -14,7 +14,7 @@ let year,date,month,day,seconds,minutes,hours;
 
 function getTime(){
   const now= new Date()
-  now.setHours(12)
+  
 
 
    year= now.getFullYear()
