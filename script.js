@@ -25,9 +25,7 @@ function getTime(){
 
    seconds =String(now.getSeconds()).padStart(2,"0")
    minutes =String(now.getMinutes()).padStart(2,"0")
-  //  hours =String(now.getHours()).padStart(2,"0")
-
-   hours =now.getHours()
+   hours =String(now.getHours()).padStart(2,"0")
    
 
    if (hours>=12){
